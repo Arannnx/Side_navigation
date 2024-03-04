@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Message" />
+
+    <item android:title="More Options">
+        <menu>
+            <item android:id="nav_settings"
+                android:icon="@drawable/settings"
+                android:title="Settings"/>
+
+            <item android:id="nav_logout"
+                android:icon="@drawable/log_out_svgrepo_com"
+                android:title="Logout"/>
+
+
+
+        </menu>
+    </item>
+
+</menu>
