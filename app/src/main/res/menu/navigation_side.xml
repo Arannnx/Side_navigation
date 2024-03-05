@@ -19,11 +19,11 @@
 
     <item android:title="More Options">
         <menu>
-            <item android:id="nav_settings"
+            <item android:id="@+id/nav_settings"
                 android:icon="@drawable/settings"
                 android:title="Settings"/>
 
-            <item android:id="nav_logout"
+            <item android:id="@+id/nav_logout"
                 android:icon="@drawable/log_out_svgrepo_com"
                 android:title="Logout"/>
 
